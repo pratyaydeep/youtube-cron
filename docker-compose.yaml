@@ -1,0 +1,13 @@
+version: "3"
+services:
+  scheduler:
+    build: "./"
+    links:
+      - redis
+    ports:
+      - "8000:8000"
+
+  redis:
+    image: "redis:4-alpine"
+    ports:
+      - "6379:6379"

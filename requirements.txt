@@ -1,0 +1,8 @@
+requests
+python-dateutil
+celery
+redis
+django
+djangorestframework
+django-celery-beat
+APScheduler
